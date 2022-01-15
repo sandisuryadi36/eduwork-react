@@ -20,6 +20,7 @@ export default class Skills extends React.Component {
     render() {
         return (
             <Container className="p-4 text-center">
+                <h1 className="m-3">Skills</h1>
                 <Container fluid className="d-flex flex-wrap gap-3 justify-content-center">
                     <ItemCard title="HTML">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero deserunt fuga obcaecati similique delectus iste? Vitae deleniti saepe tempora modi!</p>
