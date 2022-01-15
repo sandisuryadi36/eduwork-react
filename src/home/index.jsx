@@ -1,14 +1,20 @@
 import React from "react";
-import Content from "./component/content";
-import Header from "./component/header"
+import "./style.scss"
+import TopNavbar from "./component/topNavbar";
+import TopCover from "./component/topCover";
+import Biografi from "./component/biografi";
+import { Container } from "react-bootstrap";
+import Skills from "./component/skills";
 
 export default class Home extends React.Component {
     render() {
         return (
-            <div>
-                <Header />
-                <Content />
-            </div>
+            <Container fluid className="bg-dark text-light p-0">
+                <TopNavbar />
+                <TopCover />
+                <Biografi />
+                <Skills />
+            </Container>
         )
     }
 }

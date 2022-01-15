@@ -1,0 +1,15 @@
+.navbar {
+    backdrop-filter: blur(3px);
+}
+
+.top-cover {
+    height: 100vh;
+    background-image: url(./cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    
+    h1 {
+    font-size: 4em;
+    }
+}
