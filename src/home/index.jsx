@@ -5,6 +5,8 @@ import TopCover from "./component/topCover";
 import Biografi from "./component/biografi";
 import { Container } from "react-bootstrap";
 import Skills from "./component/skills";
+import Contact from "./component/contact";
+import BottomFooter from "./component/footer";
 
 export default class Home extends React.Component {
     render() {
@@ -14,6 +16,8 @@ export default class Home extends React.Component {
                 <TopCover />
                 <Biografi />
                 <Skills />
+                <Contact />
+                <BottomFooter />
             </Container>
         )
     }
