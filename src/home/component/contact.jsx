@@ -4,7 +4,7 @@ import { Button, Container, Form, FormControl, FormLabel } from "react-bootstrap
 export default class Contact extends React.Component {
     render() {
         return (
-            <Container className="p-4">
+            <Container className="p-4" id="contact">
                 <h1 className="text-center">Contact Me</h1>
                 <Container fluid className="d-flex justify-content-center">
                     <Form className="d-flex flex-column gap-2 w-75">
