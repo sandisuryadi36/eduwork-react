@@ -13,10 +13,12 @@ export default class Home extends React.Component {
         return (
             <Container fluid className="bg-dark text-light p-0">
                 <TopNavbar />
-                <TopCover />
-                <Biografi />
-                <Skills />
-                <Contact />
+                <div data-spy="scroll" data-target="topNavbar" data-offset="20" tabIndex="0">
+                    <TopCover />
+                    <Biografi />
+                    <Skills />
+                    <Contact />
+                </div>
                 <BottomFooter />
             </Container>
         )

@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from "react-bootstrap"
 export default class TopNavbar extends React.Component{
     render() {
         return (
-            <Navbar collapseOnSelect expand="lg" className="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-50 shadow-lg fixed-top">
+            <Navbar collapseOnSelect expand="lg" className="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-50 shadow-lg fixed-top" id="topNavbar">
                 <Container>
                     <Navbar.Brand href="./">Sandi Suryadi</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
